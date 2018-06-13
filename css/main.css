@@ -100,7 +100,9 @@ body {
     background-color: #fff;
 
 }
-
+a {
+    text-decoration: none;
+}
 ul {
     list-style: none;
 }
@@ -115,14 +117,10 @@ ul {
 }
 
 #main-navbar a {
-    text-decoration: none;
     text-align: center;
-    margin-left: 20px;
+    padding-left: 20px;
 }
-/*banner
-.banner-container {
-    margin-top: -15px;
-} */
+
 #banner {
     color:#6f55da;
     background-color: #f6f7fb;
@@ -130,6 +128,10 @@ ul {
     text-align: center;
     padding-top: 10px;
 }
+#intro {
+    height: 500px;
+}
+
 #customers {
     background-color: #f6f7fb;
     height: 100px;
@@ -150,22 +152,48 @@ ul {
 }
 #trial {
     background-color: #fa7a35;
+    height: 400px;
 }
 #more-customers {
     background-color: #6b4fbb;
 }
+#process {
+    height:600px;
+}
 #call-to-action {
     background-color: #f2f2f2;
+    height:550px;
 }
 
 #links-section {
     background-color: #6b4fbb;
+    color: #fff;
     text-align: center;
+    height:450px;
 }
+#links-section a {
+    color: #fff;
+}
+
 #footer {
     background-color: #554488;
     text-align: center;
+    height:50px;
 }
+
+.two-collumns {
+    width:50%;
+    float:left;
+}
+.collumns-container:after {
+    clear:all;
+}
+
+.four-collumns {
+    width:25%;
+    float:left;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
