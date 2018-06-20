@@ -36,13 +36,17 @@
   <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 </body>
 	<div class="container">
+		<!-- TOP BANNER SECTION
+			_________________________________________________________________________-->		
 		<div id="banner-container">
 		<div id="banner">
 			<p> Are you #movingtogitlab? Read our blog post on migrating to Gitlab</p>
 		</div>
-	</div>
+		</div>
+		<!-- ****************   END OF TOP BANNER ******************************-->
+
 		<!-- NAVBAR SECTION  
-			_____________________________________________________________________-->
+			____________________________________________________________________-->
 		<div id="main-navbar">
 				<a href="#">Product</a>
 				<a href="#">Pricing</a>
@@ -53,12 +57,12 @@
 				<a href="#">Explore GitLab.com</a>
 				<a href="#">Sign In/Register</a>
 		</div>
-		<!-- NAVBAR SECTION END-->
+		<!-- ******************* END OF NAVBAR SECTION  **************************-->
 
 		<!-- INTRO SECTION 		
-			____________________________________________________________-->
-		<div id="intro" class="collumns-container">
-			<div class="two-collumns">
+			______________________________________________________________________-->
+		<div id="intro-segment-container" class="collumns-container">
+			<div id="intro-segment" class="two-collumns">
 				<h2>A 200% Faster DevOps Cycle</h2>
 				<p>Spend more time writing code and less time maintaining your tool chain.</p> 
 
@@ -69,51 +73,66 @@
 				<img src="img/forrester-ci-wave-graphic-with-arrow.svg">
 			</div>
 		</div>
-		<!-- INTRO END 		-->
+		<!-- ********************** INTRO END 	***************************************	-->
 
 		<!-- CUSTOMERS SECTION 
-			______________________________________________________________-->
+			____________________________________________________________________________-->
 		<div id="customers">
 			<p>Used by more than 100,000 organizations around the globe</p>
-
+				<img src="img/bayer.svg" height="40px" class="icons">
+				<img src="img/nasa.svg" height="40px" class="icons">
+				<img src="img/sony.svg" height="24px" class="icons">
+				<img src="img/nasdaq.svg" height="35px" class="icons">
 		</div>
-		<!-- CUSTOMERS END		-->
+		<!-- ********************** CUSTOMERS END ************************************	-->
 		<!-- FEATURES SECTION	
 			_______________________________________________________________-->
-		<div id="features">
-			<p>Plan</p>
+		<div id="features" class="collumns-container">
+			<div class="two-collumns">
+				<h2>With Gitlab You Can:</h2>
+				<p class="hover-card">Plan</p>
+				<p class="hover-card">Create</p>
+				<p class="hover-card">Verify</p>
+				<p class="hover-card">Package</p>
+				<p class="hover-card">Release</p>
+				<p class="hover-card">Configure</p>
+				<p class="hover-card">Monitor</p>
+			</div>
 
-			<h2>Get your best ideas into development.</h2>
-			<p>Whether you use Waterfall, Agile, or Conversational Development, GitLab streamlines your collaborative workflows. Visualize, prioritize, coordinate, and track your progress your way with GitLab’s flexible project management tools.</p>
+			<div class="two-collumns">
+				<h2>Get your best ideas into development.</h2>
+				<p>Whether you use Waterfall, Agile, or Conversational Development, GitLab streamlines your collaborative workflows. Visualize, prioritize, coordinate, and track your progress your way with GitLab’s flexible project management tools.</p>
+			</div>
 
-			<p>Create</p>
+<!-- 			
 			<h2>Securely write and manage code and project data.</h2>
 			<p>Consolidate source code into a single DVCS that’s easily managed and controlled without disrupting your workflow. GitLab’s git repositories come complete with branching tools and access controls, providing a scalable, single source of truth for collaborating on projects and code.</p>
 
-			<p>Verify</p>
+			
 			<h2>Ship better software, faster.</h2>
 			<p>Spot errors sooner, improve security and shorten feedback cycles with built-in static code analysis, code testing, code quality, dependency checking and review apps. Customize your approval workflow controls, automatically test the quality of your code, and spin up a staging environment for every code change. GitLab Continuous Integration is the most popular next generation testing system that scales to run your tests faster.</p>
 
-			<p>Package</p>
+			
 			<h2>Manage custom container images with ease.</h2>
 			<p>GitLab Container Registry gives you the enhanced security and access controls of custom Docker images without 3rd party add-ons. Easily upload and download images from GitLab CI with full Git repository management integration.</p>
 
-			<p>Release</p>
+			
 			<h2>Minimize complexity with built-in Continuous Delivery.</h2>
 			<p>Spend less time configuring your tools, and more time creating. Whether you’re deploying to one server or thousands, build, test, and release your code confidently and securely with GitLab’s built-in continuous delivery and deployment.</p>
 
-			<p>Configure</p>
+			
 			<h2>Automate configuration management</h2>
 			<p>Automate your entire workflow from build to deploy and monitoring with GitLab Auto Devops. Best practice templates get you started with minimal to zero configuration. Then customize everything from buildpacks to CI/CD.</p>
 
-			<p>Monitor</p>
+			
 			<h2>Monitor and manage application performance.</h2>
 			<p>Ensure your applications are always responsive and available. GitLab collects and displays performance metrics for deployed apps using Prometheus so you can know in an instant how code changes impact your production environment.</p>
+		-->
 		</div>
 		<!--***************** ADVANTAGES *******************************************
 			___________________________________________________________________________-->
-		<div ="advantages">
-			<div>
+		<div id="advantages" class="collumns-container">
+			<div class="three-collumns">
 				<h2>Visible</h2>
 					<p>Real time view across the entire lifecycle</p>
 					<ul>	
@@ -124,8 +143,7 @@
 						<li>Improve cycle time.</li>
 					</ul>
 			</div>
-			
-			<div>
+			<div class="three-collumns">
 				<h2>Efficient</h2>
 				<p>Collaborate without waiting</p>
 				<ul>
@@ -134,7 +152,7 @@
 					<li>No more handoffs</li>
 				</ul>
 			</div>
-			<div>
+			<div class="three-collumns">
 				<h2>Governed</h2>
 				<p>Develop and operate with confidence</p>
 				<ul>	
@@ -144,31 +162,47 @@
 					<li>Act with certainty</li>
 				</ul>
 			</div>
-
-		<div id="why-gitlab" >
-
-			<p>Integrated teams working together</p>
-
-			<p>GitLab is the first single application built from the ground up for all stages of the DevOps lifecycle for Product, Development, QA, Security, and Operations teams to work concurrently on the same project. GitLab enables teams to collaborate and work from a single conversation, instead of managing multiple threads across disparate tools. GitLab provides teams a single data store, one user interface, and one permission model across the DevOps lifecycle allowing teams to collaborate, significantly reducing cycle time and focus exclusively on building great software quickly.</p>
-
 		</div>
-
-		<div id="gitlab-google-cloud">
-			<p>GitLab + Google Cloud Platform = simplified, scalable deployment</p>
-
-			<p>GitLab’s native Google Kubernetes Engine integration increases developer productivity. With Auto DevOps, GitLab automatically configures CI/CD pipelines to build, test, verify, and deploy applications to Google Cloud Platform.</p>
-
-			<a href="#">Learn more</a>
-		</div>
-		
-		<div>
-			<div>
-				<p>Work Concurrently, No More Handoffs
-				Dev, QA, Security and Operations are part of a single conversation throughout the lifecycle. Detect problems earlier by ‘shifting them to the left’ and solving them with out delays.</p>
+		<div id="two-rows-container">
+			<div id="why-gitlab">
+				<div class="collumns-container">
+					<div class="two-collumns">
+						<div class="content-margin">
+							<p>Integrated teams working together</p>
+						</div>
+					</div>
+					<div class="two-collumns">
+						<div  class="content-margin">
+							<p>GitLab is the first single application built from the ground up for all stages of the DevOps lifecycle for Product, Development, QA, Security, and Operations teams to work concurrently on the same project. GitLab enables teams to collaborate and work from a single conversation, instead of managing multiple threads across disparate tools. GitLab provides teams a single data store, one user interface, and one permission model across the DevOps lifecycle allowing teams to collaborate, significantly reducing cycle time and focus exclusively on building great software quickly.</p>
+						</div>
+					</div>
+				</div>
 			</div>
 
+			<div class="collumns-container">
+				<div id="gitlab-google-cloud" class="two-collumns">
+					<div class="content-margin">
+						<p>GitLab + Google Cloud Platform = simplified, scalable deployment</p>
+						<p>GitLab’s native Google Kubernetes Engine integration increases developer productivity. With Auto DevOps, GitLab automatically configures CI/CD pipelines to build, test, verify, and deploy applications to Google Cloud Platform.</p>
+						<a href="#">Learn more</a>
+					</div>
+				</div>
+				<div id="image-container" class="two-collumns">
+
+					<img src="img/gitlab-gke-integration-image2x.png" width="70%">
+				</div>
+
 			<div>
-				<p>Teams work at the same time instead of waiting for Security, QA, and Operations handoffs because teams are backlogged.</p>
+				<h2>Work Concurrently, No More Handoffs</h2>
+				<div class="collumns-container">	
+					<div class="two-collumns">
+						<p>Dev, QA, Security and Operations are part of a single conversation throughout the lifecycle. Detect problems earlier by ‘shifting them to the left’ and solving them with out delays.</p>
+					</div>
+
+					<div class="two-collumns">
+						<p>Teams work at the same time instead of waiting for Security, QA, and Operations handoffs because teams are backlogged.</p>
+					</div>
+				</div>
 			</div>
 		</div>
 
@@ -179,8 +213,16 @@
 			<p>Try GitLab Ultimate free for 30 days.</p>
 
 			<p>Evaluate self-hosted GitLab for 30 days and receive all the features of Ultimate, our top-tier subscription plan, for free. No credit card required.</p>
-			<a href="#">Start your free trial</a>
-			<a href="#">Join a live demo</a>
+	<!--Not working as i wanted -->	
+			<div class="button-container" class="collumns-container">
+				<div class="button-main" class="two-collumns">
+					<a href="#">Start your free trial</a>
+				</div>
+				
+				<div class="button-main" class="two-collumns">
+					<a href="#">Join a live demo</a>
+				</div>
+			</div>
 		</div>
 		<div id="more-customers">
 			<p>“We decided to use an Open Source based platform so we can participate in the development and contribute to the features and concepts we need such as file size statistics, OpenID Connect, GPG, and Docker Registry. GitLab's built-in Continuous Integration and independent CI Runners allows our developers to integrate very specific environments, boosting productivity and increasing developer satisfaction.” </p>
@@ -189,9 +231,15 @@
 		<div id="process" class="collumns-container">
 			<div class="two-collumns">
 				With major product releases every 22nd of the month, GitLab’s high-velocity pace of innovation is possible because of the collaboration of 1900+ contributing members of the GitLab community, delivering the leading modern software development product, built for today’s modern software developer.
+				<div class="button-main">
+					Read more
+				</div>
 			</div>
 			<div class="two-collumns">
 				“GitLab supports development teams with a well-documented installation and configuration processes, an easy-to-follow UI, and a flexible per-seat pricing model that supports self service. GitLab’s vision is to serve enterprise-scale, integrated software development teams that want to spend more time writing code and less time maintaining their tool chain.”
+				<div class="button-main">
+					Read more
+				</div>
 			</div>
 		</div>
 		<div id="call-to-action" class="collumns-container">

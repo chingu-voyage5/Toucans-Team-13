@@ -106,9 +106,34 @@ a {
 ul {
     list-style: none;
 }
+/* collumns and collumns containers */ 
+.two-collumns {
+    width:50%;
+    float:left;
+}
+.three-collumns {
+    width:33.3%;
+    float: left;
+}
+.four-collumns {
+    width:25%;
+    float:left;
+}
+.collumns-container:after {
+    clear:all;
+}
 
-.container {
+
+.container {                /* CONTAINER THAT HOLDS THE WHOLE PAGE */
     margin-top: -15px;
+}
+
+#banner {
+    color:#6f55da;
+    background-color: #f6f7fb;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
 }
 
 #main-navbar {
@@ -121,34 +146,49 @@ ul {
     padding-left: 20px;
 }
 
-#banner {
-    color:#6f55da;
-    background-color: #f6f7fb;
-    height: 50px;
-    text-align: center;
-    padding-top: 10px;
-}
-#intro {
+#intro-segment-container {
     height: 500px;
+    margin-top: 50px;
 }
+#intro-segment {
+
+ }
 
 #customers {
     background-color: #f6f7fb;
-    height: 100px;
+    height:150px;
     text-align: center;
+    align-content: center;
+    padding-top: 20px;
 }
 #features {
+    height: 600px;
+    padding: 50px;
+}
+.hover-card{
 
+    padding:20px;
+    border:1px;
+    border-color:#000;
+    border-style: solid;
+}
+#advantages {
+    height:400px;
 }
 #links-section{
 
 }
+
 #why-gitlab {
     background-color: #6b4fbb;
+    height: 350px;
+    color: #fff;
+    padding:20px;
 }
 
 #gitlab-google-cloud {
-    background-color: #412980;
+    background-color: #fff;
+    height:500px;
 }
 #trial {
     background-color: #fa7a35;
@@ -156,6 +196,7 @@ ul {
 }
 #more-customers {
     background-color: #6b4fbb;
+    height: 250px;
 }
 #process {
     height:600px;
@@ -181,19 +222,39 @@ ul {
     height:50px;
 }
 
-.two-collumns {
-    width:50%;
-    float:left;
-}
-.collumns-container:after {
-    clear:all;
+.icons {
+    padding-right: 10%;
 }
 
-.four-collumns {
-    width:25%;
-    float:left;
+#two-rows-container {
+    height:1250px;
+    background-color:#f2f2f2;
+    padding:30px;
 }
 
+
+#image-container {
+    height:400px;
+    background-color: #412980;
+    padding-top:100px;
+}
+
+.content-margin {
+    padding: 50px;
+}
+.button-main{
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    height: 25px;
+    min-width: 100px;
+    max-width: 200px;
+    background-color: #555;
+    padding: 10px;
+}
+.button-container {
+    align:center;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
