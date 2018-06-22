@@ -1,10 +1,12 @@
 /*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
 
+
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
+
 
 /* ==========================================================================
    Base styles: opinionated defaults
@@ -15,6 +17,7 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
+
 
 /*
  * Remove text-shadow in selection highlight:
@@ -36,6 +39,7 @@ html {
     text-shadow: none;
 }
 
+
 /*
  * A better looking default horizontal rule
  */
@@ -48,6 +52,7 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
+
 
 /*
  * Remove the gap between audio, canvas, iframes,
@@ -64,6 +69,7 @@ video {
     vertical-align: middle;
 }
 
+
 /*
  * Remove default fieldset styles.
  */
@@ -74,6 +80,7 @@ fieldset {
     padding: 0;
 }
 
+
 /*
  * Allow only vertical resizing of textareas.
  */
@@ -81,6 +88,7 @@ fieldset {
 textarea {
     resize: vertical;
 }
+
 
 /* ==========================================================================
    Browser Upgrade Prompt
@@ -93,43 +101,53 @@ textarea {
     padding: 0.2em 0;
 }
 
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
 body {
     background-color: #fff;
-
+    font-family: 'Source Sans Pro', sans-serif;
 }
+
 a {
     text-decoration: none;
 }
+
 ul {
     list-style: none;
 }
-/* collumns and collumns containers */ 
+
+
+/* collumns and collumns containers */
+
 .two-collumns {
-    width:50%;
-    float:left;
-}
-.three-collumns {
-    width:33.3%;
+    width: 50%;
     float: left;
 }
+
+.three-collumns {
+    width: 33.3%;
+    float: left;
+}
+
 .four-collumns {
-    width:25%;
-    float:left;
+    width: 25%;
+    float: left;
 }
+
 .collumns-container:after {
-    clear:all;
+    clear: all;
 }
 
-
-.container {                /* CONTAINER THAT HOLDS THE WHOLE PAGE */
+.container {
+    /* CONTAINER THAT HOLDS THE WHOLE PAGE */
     margin-top: -15px;
 }
 
 #banner {
-    color:#6f55da;
+    color: #6f55da;
     background-color: #f6f7fb;
     height: 50px;
     text-align: center;
@@ -150,68 +168,73 @@ ul {
     height: 500px;
     margin-top: 50px;
 }
-#intro-segment {
 
- }
+#intro-segment {}
 
 #customers {
     background-color: #f6f7fb;
-    height:150px;
+    height: 150px;
     text-align: center;
     align-content: center;
     padding-top: 20px;
 }
+
 #features {
     height: 600px;
     padding: 50px;
 }
-.hover-card{
 
-    padding:20px;
-    border:1px;
-    border-color:#000;
+.hover-card {
+    padding: 20px;
+    border: 1px;
+    border-color: #000;
     border-style: solid;
 }
-#advantages {
-    height:400px;
-}
-#links-section{
 
+#advantages {
+    height: 400px;
 }
+
+#links-section {}
 
 #why-gitlab {
     background-color: #6b4fbb;
     height: 350px;
     color: #fff;
-    padding:20px;
+    padding: 20px;
 }
 
 #gitlab-google-cloud {
     background-color: #fff;
-    height:500px;
+    height: 500px;
 }
+
 #trial {
     background-color: #fa7a35;
     height: 400px;
 }
+
 #more-customers {
     background-color: #6b4fbb;
     height: 250px;
 }
+
 #process {
-    height:600px;
+    height: 600px;
 }
+
 #call-to-action {
     background-color: #f2f2f2;
-    height:550px;
+    height: 550px;
 }
 
 #links-section {
     background-color: #6b4fbb;
     color: #fff;
     text-align: center;
-    height:450px;
+    height: 450px;
 }
+
 #links-section a {
     color: #fff;
 }
@@ -219,7 +242,7 @@ ul {
 #footer {
     background-color: #554488;
     text-align: center;
-    height:50px;
+    height: 50px;
 }
 
 .icons {
@@ -227,22 +250,22 @@ ul {
 }
 
 #two-rows-container {
-    height:1250px;
-    background-color:#f2f2f2;
-    padding:30px;
+    height: 1250px;
+    background-color: #f2f2f2;
+    padding: 30px;
 }
 
-
 #image-container {
-    height:400px;
+    height: 400px;
     background-color: #412980;
-    padding-top:100px;
+    padding-top: 100px;
 }
 
 .content-margin {
     padding: 50px;
 }
-.button-main{
+
+.button-main {
     color: #fff;
     font-size: 15px;
     text-align: center;
@@ -252,12 +275,16 @@ ul {
     background-color: #555;
     padding: 10px;
 }
+
 .button-container {
-    align:center;
+    align: center;
 }
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
+
 
 /*
  * Hide visually and from screen readers
@@ -266,6 +293,7 @@ ul {
 .hidden {
     display: none !important;
 }
+
 
 /*
  * Hide only visually, but have it available for screen readers:
@@ -285,8 +313,10 @@ ul {
     padding: 0;
     position: absolute;
     width: 1px;
-    white-space: nowrap; /* 1 */
+    white-space: nowrap;
+    /* 1 */
 }
+
 
 /*
  * Extends the .visuallyhidden class to allow the element
@@ -305,6 +335,7 @@ ul {
     white-space: inherit;
 }
 
+
 /*
  * Hide visually and from screen readers, but maintain layout
  */
@@ -312,6 +343,7 @@ ul {
 .invisible {
     visibility: hidden;
 }
+
 
 /*
  * Clearfix: contain floats
@@ -327,13 +359,16 @@ ul {
 
 .clearfix:before,
 .clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
 }
 
 .clearfix:after {
     clear: both;
 }
+
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
@@ -346,11 +381,12 @@ ul {
 }
 
 @media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
+
 
 /* ==========================================================================
    Print styles.
@@ -363,35 +399,30 @@ ul {
     *:before,
     *:after {
         background: transparent !important;
-        color: #000 !important; /* Black prints faster */
+        color: #000 !important;
+        /* Black prints faster */
         -webkit-box-shadow: none !important;
         box-shadow: none !important;
         text-shadow: none !important;
     }
-
     a,
     a:visited {
         text-decoration: underline;
     }
-
     a[href]:after {
         content: " (" attr(href) ")";
     }
-
     abbr[title]:after {
         content: " (" attr(title) ")";
     }
-
     /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-
     a[href^="#"]:after,
     a[href^="javascript:"]:after {
         content: "";
     }
-
     pre {
         white-space: pre-wrap !important;
     }
@@ -400,30 +431,78 @@ ul {
         border: 1px solid #999;
         page-break-inside: avoid;
     }
-
     /*
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
-
     thead {
         display: table-header-group;
     }
-
     tr,
     img {
         page-break-inside: avoid;
     }
-
     p,
     h2,
     h3 {
         orphans: 3;
         widows: 3;
     }
-
     h2,
     h3 {
         page-break-after: avoid;
     }
+}
+
+
+/*
+  General Styles
+*/
+
+.row {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+/*
+Header Styles
+*/
+
+.header {
+    background: #fff;
+    position: sticky;
+    top: -1px;
+}
+
+.header .row {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.header-brand {
+    grid-column: 1/3;
+}
+
+.header-brand img {
+    height: 50px;
+    margin: 5px 0;
+    width: auto;
+}
+
+.main-navbar {
+    display: flex;
+    grid-column: 4/13;
+    justify-content: end;
+}
+
+.main-navbar ul {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.main-navbar .main-menu a {
+    color: #9c9c9c;
 }
