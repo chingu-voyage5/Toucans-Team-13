@@ -12,6 +12,14 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
+
+  <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+  <!-- Font-awesome link -->
+
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+  <!-- Fonts links -->
+
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
@@ -37,7 +45,7 @@
 </body>
 	<div class="container">
 		<!-- TOP BANNER SECTION
-			_________________________________________________________________________-->		
+			_________________________________________________________________________-->
 		<div id="banner-container">
 		<div id="banner">
 			<p> Are you #movingtogitlab? Read our blog post on migrating to Gitlab</p>
@@ -45,37 +53,55 @@
 		</div>
 		<!-- ****************   END OF TOP BANNER ******************************-->
 
-		<!-- NAVBAR SECTION  
+		<!-- NAVBAR SECTION
 			____________________________________________________________________-->
-		<div id="main-navbar">
-				<a href="#">Product</a>
-				<a href="#">Pricing</a>
-				<a href="#">Install</a>
-				<a href="#">Community</a>
-				<a href="#">Blog</a>
-				<a href="#">Contact</a>
-				<a href="#">Explore GitLab.com</a>
-				<a href="#">Sign In/Register</a>
-		</div>
+    <header class="header">
+      <div class="row">
+        <div class="header-brand">
+          <a href="#" class="brand">
+            <img src="img/assets/asset 38.svg" alt="gitlab logo" class="logo">
+          </a>
+        </div>
+        <div id="main-navbar" class="main-navbar">
+          <ul class="main-menu">
+            <a href="#">Product</a>
+            <a href="#">Pricing</a>
+            <a href="#">Install</a>
+            <a href="#">Community</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+          </ul>
+          <ul class="sub-menu">
+            <a href="#"><i class="fas fa-search"></i></a>
+            <a href="#">Explore GitLab.com</a>
+            <a href="#">Sign In/Register</a>
+          </ul>
+        </div>
+      </div>
+    </header>
+
 		<!-- ******************* END OF NAVBAR SECTION  **************************-->
 
-		<!-- INTRO SECTION 		
+		<!-- INTRO SECTION
 			______________________________________________________________________-->
-		<div id="intro-segment-container" class="collumns-container">
-			<div id="intro-segment" class="two-collumns">
-				<h2>A 200% Faster DevOps Cycle</h2>
-				<p>Spend more time writing code and less time maintaining your tool chain.</p> 
+		<section id="intro-segment-container" class="collumns-container hero">
+      <div class="row">
+        <div id="intro-segment" class="intro-segment">
+          <div>
+            <h2>A 200% Faster DevOps Cycle</h2>
+            <p>Spend more time writing code and less time maintaining your tool chain.</p>
 
-				<a href="#">Try Git Lab for Free</a> <br>
-				<a href="#">Learn more about concurrent devops →</a>
-			</div>
-			<div class="two-collumns">
-				<img src="img/forrester-ci-wave-graphic-with-arrow.svg">
-			</div>
-		</div>
+            <a href="#" class="btn btn-link">Try Git Lab for Free</a>
+          </div>
+        </div>
+        <div class="intro-image">
+          <img src="img/forrester-ci-wave-graphic-with-arrow.svg">
+        </div>
+      </div>
+		</section>
 		<!-- ********************** INTRO END 	***************************************	-->
 
-		<!-- CUSTOMERS SECTION 
+		<!-- CUSTOMERS SECTION
 			____________________________________________________________________________-->
 		<div id="customers">
 			<p>Used by more than 100,000 organizations around the globe</p>
@@ -85,7 +111,7 @@
 				<img src="img/nasdaq.svg" height="35px" class="icons">
 		</div>
 		<!-- ********************** CUSTOMERS END ************************************	-->
-		<!-- FEATURES SECTION	
+		<!-- FEATURES SECTION
 			_______________________________________________________________-->
 		<div id="features" class="collumns-container">
 			<div class="two-collumns">
@@ -104,27 +130,27 @@
 				<p>Whether you use Waterfall, Agile, or Conversational Development, GitLab streamlines your collaborative workflows. Visualize, prioritize, coordinate, and track your progress your way with GitLab’s flexible project management tools.</p>
 			</div>
 
-<!-- 			
+<!--
 			<h2>Securely write and manage code and project data.</h2>
 			<p>Consolidate source code into a single DVCS that’s easily managed and controlled without disrupting your workflow. GitLab’s git repositories come complete with branching tools and access controls, providing a scalable, single source of truth for collaborating on projects and code.</p>
 
-			
+
 			<h2>Ship better software, faster.</h2>
 			<p>Spot errors sooner, improve security and shorten feedback cycles with built-in static code analysis, code testing, code quality, dependency checking and review apps. Customize your approval workflow controls, automatically test the quality of your code, and spin up a staging environment for every code change. GitLab Continuous Integration is the most popular next generation testing system that scales to run your tests faster.</p>
 
-			
+
 			<h2>Manage custom container images with ease.</h2>
 			<p>GitLab Container Registry gives you the enhanced security and access controls of custom Docker images without 3rd party add-ons. Easily upload and download images from GitLab CI with full Git repository management integration.</p>
 
-			
+
 			<h2>Minimize complexity with built-in Continuous Delivery.</h2>
 			<p>Spend less time configuring your tools, and more time creating. Whether you’re deploying to one server or thousands, build, test, and release your code confidently and securely with GitLab’s built-in continuous delivery and deployment.</p>
 
-			
+
 			<h2>Automate configuration management</h2>
 			<p>Automate your entire workflow from build to deploy and monitoring with GitLab Auto Devops. Best practice templates get you started with minimal to zero configuration. Then customize everything from buildpacks to CI/CD.</p>
 
-			
+
 			<h2>Monitor and manage application performance.</h2>
 			<p>Ensure your applications are always responsive and available. GitLab collects and displays performance metrics for deployed apps using Prometheus so you can know in an instant how code changes impact your production environment.</p>
 		-->
@@ -135,7 +161,7 @@
 			<div class="three-collumns">
 				<h2>Visible</h2>
 					<p>Real time view across the entire lifecycle</p>
-					<ul>	
+					<ul>
 						<li>See everything that matters</li>
 						<li>Stay in your flow</li>
 						<li>Don’t wait on syncing</li>
@@ -155,7 +181,7 @@
 			<div class="three-collumns">
 				<h2>Governed</h2>
 				<p>Develop and operate with confidence</p>
-				<ul>	
+				<ul>
 					<li>Security and compliance already built-in</li>
 					<li>Simplify user management</li>
 					<li>Expedite auditing</li>
@@ -194,7 +220,7 @@
 
 			<div>
 				<h2>Work Concurrently, No More Handoffs</h2>
-				<div class="collumns-container">	
+				<div class="collumns-container">
 					<div class="two-collumns">
 						<p>Dev, QA, Security and Operations are part of a single conversation throughout the lifecycle. Detect problems earlier by ‘shifting them to the left’ and solving them with out delays.</p>
 					</div>
@@ -213,12 +239,12 @@
 			<p>Try GitLab Ultimate free for 30 days.</p>
 
 			<p>Evaluate self-hosted GitLab for 30 days and receive all the features of Ultimate, our top-tier subscription plan, for free. No credit card required.</p>
-	<!--Not working as i wanted -->	
+	<!--Not working as i wanted -->
 			<div class="button-container" class="collumns-container">
 				<div class="button-main" class="two-collumns">
 					<a href="#">Start your free trial</a>
 				</div>
-				
+
 				<div class="button-main" class="two-collumns">
 					<a href="#">Join a live demo</a>
 				</div>
@@ -267,7 +293,7 @@
 		</div>
 
 
-		<!-- USEFUL LINKS TO OTHER PAGES 
+		<!-- USEFUL LINKS TO OTHER PAGES
 			___________________________________________________________________-->
 		<div id="links-section" class="collumns-container">
 			<div class="four-collumns">
@@ -289,7 +315,7 @@
 			</div>
 			<div class="four-collumns">
 				Community
-				<ul>	
+				<ul>
 					<a href="#"><li>Events</li></a>
 					<a href="#"><li>Core Team</li></a>
 					<a href="#"><li>Contributors</li></a>
