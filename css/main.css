@@ -165,8 +165,8 @@ ul {
 }
 
 #intro-segment-container {
-    height: 500px;
-    margin-top: 50px;
+    height: 100vh;
+    width: 100%;
 }
 
 #intro-segment {}
@@ -505,4 +505,50 @@ Header Styles
 
 .main-navbar .main-menu a {
     color: #9c9c9c;
+}
+
+.hero {
+    height: 90vh;
+    width: 100%;
+}
+
+#intro-segment-container .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.row .intro-segment,
+.row .intro-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.row .intro-segment>div {
+    padding: 20px;
+}
+
+.row .intro-segment div h2 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.row .intro-segment div p {
+    font-size: 1.4rem;
+}
+
+.row .intro-segment div p {
+    margin: 50px 0;
+}
+
+.btn {
+    background: #b6b3b3;
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+.btn-link {
+    background: #e65328;
+    color: #fff;
 }
