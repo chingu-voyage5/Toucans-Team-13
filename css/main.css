@@ -100,13 +100,14 @@
     ul {
         list-style: none;
     }
+ 
     /* collumns and collumns containers */
     
     .two-collumns {
         width: 50%;
         float: left;
     }
-    
+/*    
     .three-collumns {
         width: 33.3%;
         float: left;
@@ -120,9 +121,10 @@
     .collumns-container:after {
         clear: all;
     }
-    
+*/    
+/* CONTAINER THAT HOLDS THE WHOLE PAGE */
+/*
     .container {
-        /* CONTAINER THAT HOLDS THE WHOLE PAGE */
         margin-top: -15px;
     }
     
@@ -251,6 +253,7 @@
     .button-container {
         align: center;
     }
+*/
     /* ==========================================================================
    Helper classes
    ========================================================================== */
